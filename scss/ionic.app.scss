@@ -1,0 +1,72 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #387ef5 !default;
+$calm:                            #11c1f3 !default;
+$balanced:                        #33cd5f !default;
+$energized:                       #ffc900 !default;
+$assertive:                       #ef473a !default;
+$royal:                           #886aea !default;
+$dark:                            #444 !default;
+*/
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+.login-container {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#22313F), color-stop(100%,#95A5A6));
+    background: -webkit-linear-gradient(top, #22313F 0%,#95A5A6 100%);
+}
+
+.login-container > .header {
+    -webkit-flex: 4;
+    padding-top: 10px;
+    margin-top: 120px;
+}
+
+.login-container > .button-row img {
+    max-width: 80%;
+}
+
+.login-container > .col a {
+    color: #fff;
+}
+
+.login-container > .login-input {
+    margin-top: 150px;
+}
+
+
+.login-container > .login-input > .style-input input {
+    width: 90%;
+    height: 50px;
+    margin: 20px auto;
+    border: 15px solid #fff;
+    border-radius: 1px;
+    background-color: #fff;
+    color: 2C3E50;
+}
+
+
+.login-container > .login-button {
+    width: 90%;
+    height: 50px;
+    margin:0 auto;
+    background-color: #4183D7;
+    border: 0px solid #4183D7;
+    border-radius: 1px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}

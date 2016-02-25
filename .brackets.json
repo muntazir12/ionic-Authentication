@@ -1,0 +1,8 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/Mahdi/Desktop/myApp/www/lib/ionic/js/ionic.min.js",
+        "/Users/Mahdi/Desktop/myApp/www/js/services.js",
+        "/Users/Mahdi/Desktop/myApp/www/js/constants.js",
+        "/Users/Mahdi/Desktop/myApp/www/js/controllers.js"
+    ]
+}
